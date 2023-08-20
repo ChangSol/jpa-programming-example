@@ -1,0 +1,6 @@
+bootJar {
+    archivesBaseName = 'jpa-programming-example'
+}
+
+dependencies {
+}
