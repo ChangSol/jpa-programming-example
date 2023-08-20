@@ -44,12 +44,13 @@ spring:
 
   #DB설정
   datasource:
-    #h2 드라이버 설정
-    driver-class-name: org.h2.Driver
-    #사용할 DB URL (Connection)
-    url: jdbc:h2:mem:jpa_programming_example
-    username: changsol  #ID
-    password: changsol^_^3  #PWD
+    hikari:
+      #h2 드라이버 설정
+      driver-class-name: org.h2.Driver
+      #사용할 DB URL (Connection)
+      jdbc-url: jdbc:h2:mem:jpa_programming_example
+      username: changsol  #ID
+      password: changsol^_^3  #PWD
   h2:
     console:
       enabled: true
