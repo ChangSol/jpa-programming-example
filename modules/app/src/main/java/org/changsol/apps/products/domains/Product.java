@@ -31,7 +31,7 @@ public class Product {
 	@ColumnDefault("0")
 	private Integer stockQty = 0;
 
-	@OneToMany(mappedBy = "product", cascade = CascadeType.ALL, orphanRemoval = true)
+	@OneToMany(mappedBy = "product")
 	@OrderBy("id asc ")
 	private Set<OrderItem> orderItems = Sets.newHashSet();
 }

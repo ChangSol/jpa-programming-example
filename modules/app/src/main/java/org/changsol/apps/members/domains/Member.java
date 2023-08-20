@@ -27,7 +27,7 @@ public class Member {
 
 	private String zipcode;
 
-	@OneToMany(mappedBy = "member", cascade = CascadeType.ALL, orphanRemoval = true)
+	@OneToMany(mappedBy = "member")
 	@OrderBy("id asc ")
 	private Set<Order> orders = Sets.newHashSet();
 }
