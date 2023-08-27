@@ -50,6 +50,9 @@ subprojects {
         //guava
         implementation 'com.google.guava:guava:31.1-jre'
 
+        //SpringDoc 설정
+        implementation 'org.springdoc:springdoc-openapi-ui:1.7.0'
+
         //H2 DB 설정
         implementation 'com.h2database:h2'
     }
