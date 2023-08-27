@@ -31,3 +31,6 @@
 - Local : H2 DB
   - console url : localhost:8080/h2-console
   - remote url : jdbc:h2:tcp://localhost:9092/mem:jpa_programming_example
+
+## 4. I/F UI
+- Swagger : localhost:8080/swagger-ui
